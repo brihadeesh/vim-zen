@@ -5,16 +5,16 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name="beelzebub"
+let colors_name="mephistopheles"
 " }}}
 " Colors {{{
-let s:bg = "233"
-let s:fg = "250"
-let s:mute = "60"
+let s:bg = "#282828"
+let s:fg = "#eeeea7"
+let s:mute = "#665c53"
 
 if &background == "light"
-  let s:bg = "250"
-  let s:fg = "233"
+  let s:bg = "#eeeea7"
+  let s:fg = "#282828"
 endif
 
 if exists("g:beelzebub_bg")

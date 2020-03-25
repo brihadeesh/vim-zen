@@ -1,16 +1,16 @@
-# Beelzebub
-Easy for eyes and mind minimal three-colors colorscheme.
+# Mephistopheles
+Warm and minimal colourscheme.
 
-For Emacs version look at [peregrinat0r/beelzebub.el](https://github.com/peregrinat0r/beelzebub.el)
+For Emacs version look at [peregrinat0r/mephistopheles.el](https://github.com/peregrinat0r/mephistopheles.el)
 
-![](screenshots/beelzebub-dark.png)
+![](screenshots/mephistopheles-dark.png)
 
 ## Installation
 
 With VimPlug:
 
 ```bash
-Plug 'xdefrag/vim-beelzebub'
+Plug 'peregrinat0r/vim-mephistopheles'
 ```
 
 Or just throw beelzebub.vim in your colors directory.
@@ -19,25 +19,25 @@ Or just throw beelzebub.vim in your colors directory.
 
 ```vim
 set background=dark
-colorscheme beelzebub
+colorscheme mephistopheles
 ```
 
 ## Settings
 ```vim
 " You can adjust colors you want like this:
-let g:beelzebub_bg="233"
-let g:beelzebub_fg="250"
-let g:beelzebub_mute="60"
+let g:mephistopheles_bg="233"
+let g:mephistopheles_fg="250"
+let g:mephistopheles_mute="60"
 
 " Add color noises for syntax highlightning:
-let g:beelzebub_syntax_mute=1
+let g:mephistopheles_syntax_mute=1
 
 " And make parts of it bold:
-let g:beelzebub_syntax_bold=1
+let g:mephistopheles_syntax_bold=1
 
 " Then set light variant of colorscheme
 set background=light
-colorscheme beelzebub
+colorscheme mephistopheles
 
 " And ask yourself: "What have I done?!"
 ```
