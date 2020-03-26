@@ -1,19 +1,19 @@
 # Mephistopheles
 Warm and minimal colourscheme.
 
-For Emacs version look at [peregrinat0r/mephistopheles.el](https://github.com/peregrinat0r/mephistopheles.el)
+For Emacs version look at [peregrinator/mephistopheles.el](https://gitlab.com/peregrinator/mephistopheles.el)
 
-![](screenshots/mephistopheles-dark.png)
+>> ![](screenshots/mephistopheles-dark.png)
 
 ## Installation
 
 With VimPlug:
 
 ```bash
-Plug 'peregrinat0r/vim-mephistopheles'
+Plug 'peregrinator/vim-mephistopheles'
 ```
 
-Or just throw beelzebub.vim in your colors directory.
+Or just throw mephistopheles.vim in your colors directory.
 
 ## Usage
 
