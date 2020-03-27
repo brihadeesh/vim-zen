@@ -10,7 +10,7 @@ let colors_name="mephistopheles"
 " Colors {{{
 let s:bg = "232"
 let s:fg = "187"
-let s:mute = "108"
+let s:mute = "109"
 
 if &background == "light"
   let s:bg = "187"
