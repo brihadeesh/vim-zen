@@ -5,28 +5,29 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name="mephistopheles"
+let colors_name="zen"
 " }}}
 " Colors {{{
-let s:bg = "232"
-let s:fg = "187"
-let s:mute = "109"
+let s:bg = "249"
+let s:fg = "0"
+let s:mute = "246"
 
-if &background == "light"
-  let s:bg = "187"
-  let s:fg = "232"
+if &background == "dark"
+  let s:bg = "0"
+  let s:fg = "149"
+  let s:mute = "242"
 endif
 
-if exists("g:mephistopheles_bg")
-  let s:bg = g:mephistopheles_bg
+if exists("g:zen_bg")
+  let s:bg = g:zen_bg
 endif
 
-if exists("g:mephistopheles_fg")
-  let s:bg = g:mephistopheles_fg
+if exists("g:zen_fg")
+  let s:bg = g:zen_fg
 endif
 
-if exists("g:mephistopheles_muted")
-  let s:mute = g:mephistopheles_muted
+if exists("g:zen_muted")
+  let s:mute = g:zen_muted
 endif
 " }}}
 " Groups {{{
@@ -157,14 +158,14 @@ for group in s:clear
 endfor
 " }}}
 " Options {{{
-if exists("g:mephistopheles_syntax_bold")
+if exists("g:zen_syntax_bold")
   exec("hi Function cterm=bold")
   exec("hi Statement cterm=bold")
   exec("hi Conditional cterm=bold")
   exec("hi Keyword cterm=bold")
 endif
 
-if exists("g:mephistopheles_syntax_mute")
+if exists("g:zen_syntax_mute")
   exec("hi Function ctermfg=" . s:mute)
   exec("hi Statement ctermfg=" . s:mute)
   exec("hi Conditional ctermfg=" . s:mute)
