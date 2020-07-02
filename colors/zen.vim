@@ -10,7 +10,7 @@ let colors_name="zen"
 " Colors {{{
 let s:bg = "249"
 let s:fg = "0"
-let s:mute = "246"
+let s:mute = "244"
 
 if &background == "dark"
   let s:bg = "0"
