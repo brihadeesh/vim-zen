@@ -8,7 +8,7 @@ endif
 let colors_name="zen"
 " }}}
 " Colors {{{
-let s:bg = "249"
+let s:bg = "252"
 let s:fg = "0"
 let s:mute = "244"
 
