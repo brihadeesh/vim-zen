@@ -13,9 +13,9 @@ let s:fg = "0"
 let s:mute = "244"
 
 if &background == "dark"
-  let s:bg = "0"
-  let s:fg = "149"
-  let s:mute = "242"
+  let s:bg = "235"
+  let s:fg = "250"
+  let s:mute = "238"
 endif
 
 if exists("g:zen_bg")
